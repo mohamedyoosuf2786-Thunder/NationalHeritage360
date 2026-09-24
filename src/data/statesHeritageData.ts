@@ -636,5 +636,1900 @@ export const statesHeritageData: StateHeritage[] = [
       village: 'Kumartuli, Kolkata',
       quote: 'On Mahalaya dawn, the master sculptor paints the eye of Mother Durga (Chokkhu Daan) in silence. In that single brush stroke, earth becomes goddess.'
     }
+  },
+{
+    id: 'andhra-pradesh',
+    name: 'Andhra Pradesh',
+    code: 'AP',
+    capital: 'Amaravati',
+    region: 'South',
+    greeting: 'Namaskaram',
+    languageSpoken: 'Telugu',
+    audioGreetingText: 'Namaskaram! Welcome to Andhra Pradesh, home of Kuchipudi, Kalamkari and rich Telugu traditions.',
+    summary: 'A rich cultural landscape known for Kuchipudi dance, Kalamkari textile art, Telugu literature and diverse coastal cuisine.',
+    bannerImage: 'https://images.unsplash.com/photo-1609920658906-8223bd289001?auto=format&fit=crop&w=1200&q=80',
+    verifiedSource: {
+      institution: 'Government of Andhra Pradesh',
+      referenceDoc: 'Andhra Pradesh Cultural Heritage',
+      verifiedYear: 2024
+    },
+    traditions: [
+      {
+        title: 'Kuchipudi Dance Tradition',
+        desc: 'Classical dance tradition combining expressive storytelling, music and graceful movement.',
+        significance: 'A major performing arts tradition of Telugu culture.',
+        tags: ['Classical Dance', 'Telugu Culture', 'Performing Arts']
+      }
+    ],
+    festivals: [
+      {
+        name: 'Ugadi',
+        season: 'Spring',
+        desc: 'Telugu New Year celebrated with special foods, prayers and family gatherings.',
+        rituals: 'Ugadi pachadi preparation, prayers and cultural celebrations.'
+      }
+    ],
+    crafts: [
+      {
+        name: 'Kalamkari',
+        giStatus: true,
+        material: 'Cotton textile and natural dyes',
+        desc: 'Hand-painted and block-printed textile art featuring traditional motifs and storytelling.'
+      }
+    ],
+    food: [
+      {
+        name: 'Pulihora',
+        giTagged: false,
+        desc: 'Tangy rice preparation commonly served during festivals and religious occasions.',
+        culturalRoots: 'Traditional Telugu household and temple cuisine.'
+      }
+    ],
+    music: [
+      {
+        form: 'Carnatic and Telugu Folk Music',
+        instrument: 'Mridangam and traditional folk instruments',
+        desc: 'Musical traditions combining classical Carnatic forms with regional folk expressions.'
+      }
+    ],
+    languages: [
+      {
+        name: 'Telugu',
+        script: 'Telugu script',
+        speakersApprox: '80+ million native and second-language speakers',
+        oralTradition: 'Rich tradition of poetry, folk songs, storytelling and oral literature.'
+      }
+    ],
+    stories: [
+      {
+        title: 'Kuchipudi Village Heritage',
+        excerpt: 'Kuchipudi village became closely associated with the classical dance tradition that carries its name.',
+        theme: 'Dance, storytelling and cultural identity'
+      }
+    ],
+    artisanSpotlight: {
+      name: 'Kalamkari Artisans',
+      craft: 'Kalamkari Textile Art',
+      village: 'Srikalahasti',
+      quote: 'Every Kalamkari design carries a story through colour, line and traditional craftsmanship.'
+    }
+  },
+  {
+    id: 'arunachal-pradesh',
+    name: 'Arunachal Pradesh',
+    code: 'AR',
+    capital: 'Itanagar',
+    region: 'North-East',
+    greeting: 'Khamma Ghani',
+    languageSpoken: 'English and indigenous tribal languages',
+    audioGreetingText: 'Welcome to Arunachal Pradesh, home to diverse tribal traditions, vibrant festivals and Himalayan heritage.',
+    summary: 'A Himalayan cultural region known for diverse tribal communities, traditional festivals, weaving, crafts and rich oral traditions.',
+    bannerImage: 'https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80',
+    verifiedSource: {
+      institution: 'Government of Arunachal Pradesh',
+      referenceDoc: 'Arunachal Pradesh Cultural Heritage',
+      verifiedYear: 2024
+    },
+    traditions: [
+      {
+        title: 'Tribal Weaving Tradition',
+        desc: 'Traditional handloom weaving creates distinctive textiles using community-specific patterns and colours.',
+        significance: 'Textiles preserve community identity, craftsmanship and intergenerational knowledge.',
+        tags: ['Handloom', 'Tribal Heritage', 'Traditional Art']
+      }
+    ],
+    festivals: [
+      {
+        name: 'Losar',
+        season: 'Winter',
+        desc: 'Tibetan Buddhist communities celebrate Losar as a traditional New Year festival.',
+        rituals: 'Monastic prayers, traditional food, community gatherings and cultural performances.'
+      }
+    ],
+    crafts: [
+      {
+        name: 'Apatani Handloom',
+        giStatus: false,
+        material: 'Cotton, wool and natural fibres',
+        desc: 'Traditional woven textiles featuring distinctive regional patterns and techniques.'
+      }
+    ],
+    food: [
+      {
+        name: 'Thukpa',
+        giTagged: false,
+        desc: 'A warm noodle soup enjoyed across Himalayan communities of the region.',
+        culturalRoots: 'Tibetan and Himalayan culinary traditions.'
+      }
+    ],
+    music: [
+      {
+        form: 'Tribal Folk Songs',
+        instrument: 'Drums, bamboo instruments and traditional string instruments',
+        desc: 'Community songs and performances preserve history, stories, rituals and collective memory.'
+      }
+    ],
+    languages: [
+      {
+        name: 'Nyishi',
+        script: 'Latin script commonly used in modern writing',
+        speakersApprox: 'Hundreds of thousands of speakers',
+        oralTradition: 'Rich oral traditions include folk songs, myths, legends and community narratives.'
+      }
+    ],
+    stories: [
+      {
+        title: 'Apatani Oral Traditions',
+        excerpt: 'Stories passed through generations preserve knowledge about ancestors, nature, community values and traditional life.',
+        theme: 'Oral Heritage and Community Memory'
+      }
+    ],
+    artisanSpotlight: {
+      name: 'Apatani Weavers',
+      craft: 'Traditional Handloom Weaving',
+      village: 'Ziro Valley',
+      quote: 'Every woven pattern carries the memory of our community and the knowledge passed from one generation to another.'
+    }
+  },
+{
+  id: 'bihar',
+  name: 'Bihar',
+  code: 'BR',
+  capital: 'Patna',
+  region: 'East',
+  greeting: 'प्रणाम (Pranam)',
+  languageSpoken: 'Hindi, Maithili, Bhojpuri and Magahi',
+  audioGreetingText: 'Pranam, welcome to Bihar',
+  summary: 'A land of ancient learning, Buddhist heritage, folk traditions and rich Mithila culture.',
+  bannerImage: 'https://images.unsplash.com/photo-1595658658481-d53d3f999875?auto=format&fit=crop&w=1200&q=80',
+
+  verifiedSource: {
+    institution: 'Bihar Tourism',
+    referenceDoc: 'Bihar Cultural Heritage',
+    verifiedYear: 2024
+  },
+
+  traditions: [
+    {
+      title: 'Chhath Puja Tradition',
+      desc: 'A deeply rooted festival tradition involving worship of the Sun God and riverside rituals.',
+      significance: 'Represents gratitude, purity, family wellbeing and harmony with nature.',
+      tags: ['Ritual', 'Festival', 'Sun Worship']
+    },
+    {
+      title: 'Mithila Wedding Traditions',
+      desc: 'Traditional ceremonies featuring songs, rituals, symbolic art and community participation.',
+      significance: 'Preserves social customs and intergenerational cultural knowledge.',
+      tags: ['Mithila', 'Wedding', 'Folk Tradition']
+    }
+  ],
+
+  festivals: [
+    {
+      name: 'Chhath Puja',
+      season: 'Autumn',
+      desc: 'A major festival dedicated to the Sun God, observed through prayers, fasting and offerings.',
+      rituals: 'Fasting, riverbank prayers, offering arghya to the setting and rising Sun'
+    }
+  ],
+
+  crafts: [
+    {
+      name: 'Madhubani Painting',
+      giStatus: true,
+      material: 'Handmade paper, cloth and natural or traditional pigments',
+      desc: 'Intricate Mithila paintings depicting deities, nature, mythology and community life.'
+    }
+  ],
+
+  food: [
+    {
+      name: 'Litti Chokha',
+      giTagged: false,
+      desc: 'Roasted wheat balls served with mashed vegetables and traditional accompaniments.',
+      culturalRoots: 'Traditional food culture of Bihar and the wider eastern Gangetic region.'
+    }
+  ],
+
+  music: [
+    {
+      form: 'Bihar Folk Songs',
+      instrument: 'Dholak, harmonium and traditional string instruments',
+      desc: 'Community songs and performances preserve stories, rituals and local traditions.'
+    }
+  ],
+
+  languages: [
+    {
+      name: 'Maithili',
+      script: 'Devanagari',
+      speakersApprox: 'Over 30 million speakers',
+      oralTradition: 'Rich oral traditions include folk songs, legends, wedding songs and community narratives.'
+    }
+  ],
+
+  stories: [
+    {
+      title: 'Mithila Folk Stories',
+      excerpt: 'Generations of storytellers preserve legends, moral lessons and memories through oral narration.',
+      theme: 'Folklore and Community Memory'
+    }
+  ],
+
+  artisanSpotlight: {
+    name: 'Madhubani Artisans',
+    craft: 'Madhubani Painting',
+    village: 'Madhubani district',
+    quote: 'Every painting carries the memory of Mithila through its symbols, colours and stories.'
   }
+},
+{
+  id: 'jharkhand',
+  name: 'Jharkhand',
+  code: 'JH',
+  capital: 'Ranchi',
+  region: 'East',
+  greeting: 'Johar',
+  languageSpoken: 'Hindi, Santali, Mundari and Ho',
+  audioGreetingText: 'Johar, welcome to Jharkhand',
+  summary: 'A forest-rich region known for tribal traditions, indigenous arts, music, dance and sacred landscapes.',
+
+  bannerImage: 'https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&w=1200&q=80',
+
+  verifiedSource: {
+    institution: 'Jharkhand Tourism',
+    referenceDoc: 'Jharkhand Tribal and Cultural Heritage',
+    verifiedYear: 2024
+  },
+
+  traditions: [
+    {
+      title: 'Tribal Community Traditions',
+      desc: 'Indigenous communities preserve seasonal rituals, village gatherings, music, dance and oral knowledge.',
+      significance: 'Strengthens community identity and preserves knowledge passed through generations.',
+      tags: ['Tribal Heritage', 'Community', 'Oral Tradition']
+    },
+    {
+      title: 'Sarhul Tradition',
+      desc: 'A spring celebration connected with nature, sal trees and community worship.',
+      significance: 'Reflects the close relationship between indigenous communities and the natural environment.',
+      tags: ['Nature Worship', 'Festival', 'Tribal Culture']
+    }
+  ],
+
+  festivals: [
+    {
+      name: 'Sarhul',
+      season: 'Spring',
+      desc: 'A major tribal festival celebrating nature, community and the arrival of spring.',
+      rituals: 'Community prayers, sal flowers, traditional songs, dances and offerings'
+    }
+  ],
+
+  crafts: [
+    {
+      name: 'Sohrai Painting',
+      giStatus: false,
+      material: 'Natural earth colours and mud walls',
+      desc: 'Traditional wall paintings featuring animals, plants and geometric patterns associated with harvest and community life.'
+    }
+  ],
+
+  food: [
+    {
+      name: 'Dhuska',
+      giTagged: false,
+      desc: 'A traditional fried rice-and-lentil dish commonly enjoyed with curry or vegetables.',
+      culturalRoots: 'Everyday and festive food traditions of Jharkhand.'
+    }
+  ],
+
+  music: [
+    {
+      form: 'Tribal Folk Music',
+      instrument: 'Mandar, Nagara and traditional drums',
+      desc: 'Community songs and rhythmic performances accompany festivals, dances and social gatherings.'
+    }
+  ],
+
+  languages: [
+    {
+      name: 'Santali',
+      script: 'Ol Chiki',
+      speakersApprox: 'Millions of speakers across eastern India',
+      oralTradition: 'Rich oral traditions include folk songs, legends, nature knowledge and community histories.'
+    }
+  ],
+
+  stories: [
+    {
+      title: 'Tribal Creation Stories',
+      excerpt: 'Oral narratives connect people, ancestors, forests, animals and the natural world through generations of storytelling.',
+      theme: 'Nature, Ancestry and Community Memory'
+    }
+  ],
+
+  artisanSpotlight: {
+    name: 'Sohrai Artists',
+    craft: 'Sohrai Wall Painting',
+    village: 'Hazaribagh region',
+    quote: 'Our walls become living stories where animals, forests and ancestral memories are preserved through art.'
+  }
+},
+{
+    id: 'chhattisgarh',
+    name: 'Chhattisgarh',
+    code: 'CG',
+    capital: 'Raipur',
+    region: 'Central',
+    greeting: 'Johar',
+    languageSpoken: 'Chhattisgarhi',
+    audioGreetingText: 'Johar',
+    summary: 'Chhattisgarh is known for its tribal traditions, folk music, vibrant festivals, metal crafts and rich forest-based cultural heritage.',
+    bannerImage: 'https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1200&q=80',
+
+    verifiedSource: {
+      institution: 'Government of Chhattisgarh',
+      referenceDoc: 'Culture and Tourism Resources',
+      verifiedYear: 2024
+    },
+
+    traditions: [
+      {
+        title: 'Bastar Tribal Traditions',
+        desc: 'Community traditions involving dance, music, crafts, nature worship and seasonal celebrations.',
+        significance: 'These traditions preserve the cultural identity and community memory of Bastar region.',
+        tags: ['Tribal Heritage', 'Bastar', 'Community']
+      }
+    ],
+
+    festivals: [
+      {
+        name: 'Bastar Dussehra',
+        season: 'Monsoon and Autumn',
+        desc: 'A long-running cultural celebration centred on local deities, rituals and community participation.',
+        rituals: 'Traditional processions, ceremonies and community rituals are conducted across Bastar.'
+      }
+    ],
+
+    crafts: [
+      {
+        name: 'Bastar Dhokra',
+        giStatus: true,
+        material: 'Bell metal',
+        desc: 'Traditional lost-wax metal casting practiced by artisan communities of Bastar.'
+      }
+    ],
+
+    food: [
+      {
+        name: 'Fara',
+        giTagged: false,
+        desc: 'A traditional steamed rice-based preparation popular in Chhattisgarh.',
+        culturalRoots: 'Fara reflects the everyday rice-based food culture of Chhattisgarh households.'
+      }
+    ],
+
+    music: [
+      {
+        form: 'Pandavani',
+        instrument: 'Tambura',
+        desc: 'A traditional narrative singing form that presents episodes from the Mahabharata through expressive storytelling.'
+      }
+    ],
+
+    languages: [
+      {
+        name: 'Chhattisgarhi',
+        script: 'Devanagari',
+        speakersApprox: 'Millions of speakers in Chhattisgarh and surrounding regions',
+        oralTradition: 'Folk songs, ballads, proverbs and oral storytelling are important parts of the tradition.'
+      }
+    ],
+
+    stories: [
+      {
+        title: 'Bastar Folk Legends',
+        excerpt: 'Local legends connect forests, village communities, ancestral memory and traditional beliefs.',
+        theme: 'Nature, Community and Ancestral Memory'
+      }
+    ],
+
+    artisanSpotlight: {
+      name: 'Bastar Dhokra Artisans',
+      craft: 'Dhokra Metal Casting',
+      village: 'Bastar region',
+      quote: 'Our metal forms carry the memory of our community and our ancestors.'
+    }
+  },
+  {
+    id: 'goa',
+    name: 'Goa',
+    code: 'GA',
+    capital: 'Panaji',
+    region: 'West',
+    greeting: 'Dev Borem Korum',
+    languageSpoken: 'Konkani',
+    audioGreetingText: 'Dev Borem Korum',
+    summary: 'Goa is known for its coastal heritage, Indo-Portuguese cultural influences, traditional music, festivals, crafts and distinctive cuisine.',
+
+    bannerImage: 'https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1200&q=80',
+
+    verifiedSource: {
+      institution: 'Government of Goa',
+      referenceDoc: 'Department of Art and Culture Resources',
+      verifiedYear: 2024
+    },
+
+    traditions: [
+      {
+        title: 'Goan Community Traditions',
+        desc: 'Traditional village celebrations, folk performances and community customs form an important part of Goan cultural life.',
+        significance: 'These practices preserve Goa’s distinctive coastal and multicultural heritage.',
+        tags: ['Goa', 'Community', 'Coastal Heritage']
+      }
+    ],
+
+    festivals: [
+      {
+        name: 'Shigmo',
+        season: 'Spring',
+        desc: 'A colourful Goan festival featuring traditional music, processions, dances and community celebrations.',
+        rituals: 'Communities organise processions, folk performances, music and traditional celebrations.'
+      }
+    ],
+
+    crafts: [
+      {
+        name: 'Goan Coconut Craft',
+        giStatus: false,
+        material: 'Coconut shell and coconut fibre',
+        desc: 'Traditional craft practices use locally available coconut materials to create decorative and functional objects.'
+      }
+    ],
+
+    food: [
+      {
+        name: 'Goan Fish Curry',
+        giTagged: false,
+        desc: 'A traditional coastal curry prepared with fish, coconut and regional spices.',
+        culturalRoots: 'It reflects Goa’s coastal food traditions and the importance of coconut and seafood in local cuisine.'
+      }
+    ],
+
+    music: [
+      {
+        form: 'Mando',
+        instrument: 'Guitar and Ghumot',
+        desc: 'A traditional Goan musical form associated with singing, dance and community gatherings.'
+      }
+    ],
+
+    languages: [
+      {
+        name: 'Konkani',
+        script: 'Devanagari and other regional scripts',
+        speakersApprox: 'Millions of speakers across Goa and neighbouring regions',
+        oralTradition: 'Folk songs, stories, proverbs and traditional performances carry Konkani oral heritage.'
+      }
+    ],
+
+    stories: [
+      {
+        title: 'Goan Village Legends',
+        excerpt: 'Local stories connect villages, the sea, forests, family traditions and community memory.',
+        theme: 'Community, Nature and Coastal Life'
+      }
+    ],
+
+    artisanSpotlight: {
+      name: 'Goan Traditional Artisans',
+      craft: 'Coconut and Traditional Craftwork',
+      village: 'Villages across Goa',
+      quote: 'Our crafts keep the everyday traditions of Goa alive.'
+    }
+  },
+  {
+    id: 'haryana',
+    name: 'Haryana',
+    code: 'HR',
+    capital: 'Chandigarh',
+    region: 'North',
+    greeting: 'Ram Ram',
+    languageSpoken: 'Haryanvi',
+    audioGreetingText: 'Ram Ram',
+    summary: 'Haryana is known for its folk traditions, energetic dances, rural culture, wrestling heritage and rich agricultural lifestyle.',
+
+    bannerImage: 'https://images.unsplash.com/photo-1596401057633-54a8fe8ef647?auto=format&fit=crop&w=1200&q=80',
+
+    verifiedSource: {
+      institution: 'Government of Haryana',
+      referenceDoc: 'Department of Art and Cultural Affairs Resources',
+      verifiedYear: 2024
+    },
+
+    traditions: [
+      {
+        title: 'Haryanvi Folk Traditions',
+        desc: 'Village gatherings, folk theatre, seasonal celebrations and community customs form an important part of Haryana’s cultural life.',
+        significance: 'These traditions preserve rural community identity and oral cultural knowledge.',
+        tags: ['Folk Culture', 'Rural Heritage', 'Community']
+      }
+    ],
+
+    festivals: [
+      {
+        name: 'Teej',
+        season: 'Monsoon',
+        desc: 'A traditional festival celebrated with songs, swings, family gatherings and community activities.',
+        rituals: 'Women participate in traditional songs, swings, prayers and festive gatherings.'
+      }
+    ],
+
+    crafts: [
+      {
+        name: 'Phulkari',
+        giStatus: true,
+        material: 'Cotton and silk textiles',
+        desc: 'Decorative embroidery tradition featuring colourful floral and geometric patterns.'
+      }
+    ],
+
+    food: [
+      {
+        name: 'Bajra Khichdi',
+        giTagged: false,
+        desc: 'A traditional millet-based dish associated with the agricultural food culture of Haryana.',
+        culturalRoots: 'It reflects the importance of millet and locally grown grains in traditional rural diets.'
+      }
+    ],
+
+    music: [
+      {
+        form: 'Haryanvi Folk Music',
+        instrument: 'Been and Dholak',
+        desc: 'Traditional songs accompany weddings, festivals, seasonal events and village gatherings.'
+      }
+    ],
+
+    languages: [
+      {
+        name: 'Haryanvi',
+        script: 'Devanagari',
+        speakersApprox: 'Millions of speakers in Haryana and neighbouring regions',
+        oralTradition: 'Folk songs, sayings, ballads and storytelling are important parts of Haryanvi oral heritage.'
+      }
+    ],
+
+    stories: [
+      {
+        title: 'Haryanvi Folk Tales',
+        excerpt: 'Traditional stories describe village life, courage, relationships, humour and moral values.',
+        theme: 'Community, Courage and Moral Values'
+      }
+    ],
+
+    artisanSpotlight: {
+      name: 'Haryana Folk Artisans',
+      craft: 'Traditional Embroidery and Textile Craft',
+      village: 'Rural Haryana',
+      quote: 'Our handmade traditions connect everyday life with the heritage of our villages.'
+    }
+  },
+  {
+    id: 'himachal-pradesh',
+    name: 'Himachal Pradesh',
+    code: 'HP',
+    capital: 'Shimla',
+    region: 'North',
+    greeting: 'Namaste',
+    languageSpoken: 'Hindi',
+    audioGreetingText: 'Namaste',
+    summary: 'Himachal Pradesh is known for its Himalayan traditions, temple culture, folk dances, handicrafts, mountain cuisine and rich oral heritage.',
+
+    bannerImage: 'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1200&q=80',
+
+    verifiedSource: {
+      institution: 'Government of Himachal Pradesh',
+      referenceDoc: 'Department of Language, Art and Culture Resources',
+      verifiedYear: 2024
+    },
+
+    traditions: [
+      {
+        title: 'Himachali Temple Traditions',
+        desc: 'Village temples and local deities play an important role in community rituals, processions and seasonal celebrations.',
+        significance: 'These traditions connect Himalayan communities with their local history, beliefs and collective identity.',
+        tags: ['Himalayan Heritage', 'Temple Culture', 'Community']
+      }
+    ],
+
+    festivals: [
+      {
+        name: 'Kullu Dussehra',
+        season: 'Autumn',
+        desc: 'A major cultural celebration featuring deity processions, music, dance and community gatherings in the Kullu Valley.',
+        rituals: 'Local deities are brought in traditional processions and communities participate in prayers, music and celebrations.'
+      }
+    ],
+
+    crafts: [
+      {
+        name: 'Kullu Shawl',
+        giStatus: true,
+        material: 'Wool',
+        desc: 'Traditional handwoven woollen textile known for geometric patterns and colourful borders.'
+      }
+    ],
+
+    food: [
+      {
+        name: 'Dham',
+        giTagged: false,
+        desc: 'A traditional ceremonial vegetarian feast served during festivals and important community occasions.',
+        culturalRoots: 'Dham reflects Himachal Pradesh’s community dining traditions and regional culinary practices.'
+      }
+    ],
+
+    music: [
+      {
+        form: 'Nati',
+        instrument: 'Dhol and Karnal',
+        desc: 'A popular traditional folk dance and music tradition performed during festivals and community celebrations.'
+      }
+    ],
+
+    languages: [
+      {
+        name: 'Pahari',
+        script: 'Devanagari',
+        speakersApprox: 'Widely spoken across Himalayan communities of Himachal Pradesh',
+        oralTradition: 'Folk songs, legends, proverbs and village stories are passed through generations.'
+      }
+    ],
+
+    stories: [
+      {
+        title: 'Himalayan Village Legends',
+        excerpt: 'Traditional stories connect mountain landscapes, local deities, forests, animals and community memory.',
+        theme: 'Nature, Faith and Community Memory'
+      }
+    ],
+
+    artisanSpotlight: {
+      name: 'Kullu Weavers',
+      craft: 'Kullu Shawl Weaving',
+      village: 'Kullu Valley',
+      quote: 'Every woven pattern carries the identity of our mountain communities.'
+    }
+  },
+  {
+    id: 'karnataka',
+    name: 'Karnataka',
+    code: 'KA',
+    capital: 'Bengaluru',
+    region: 'South',
+    greeting: 'Namaskara',
+    languageSpoken: 'Kannada',
+    audioGreetingText: 'Namaskara',
+    summary: 'Karnataka is known for its classical arts, temple traditions, diverse crafts, rich Kannada literature and vibrant festivals.',
+
+    bannerImage: 'https://images.unsplash.com/photo-1600100397608-f0107e7b8f03?auto=format&fit=crop&w=1200&q=80',
+
+    verifiedSource: {
+      institution: 'Government of Karnataka',
+      referenceDoc: 'Department of Kannada and Culture Resources',
+      verifiedYear: 2024
+    },
+
+    traditions: [
+      {
+        title: 'Yakshagana Tradition',
+        desc: 'A traditional theatre form combining dance, music, elaborate costumes and storytelling.',
+        significance: 'Yakshagana preserves regional performance traditions and stories from Indian epics.',
+        tags: ['Theatre', 'Dance', 'Coastal Karnataka']
+      }
+    ],
+
+    festivals: [
+      {
+        name: 'Mysuru Dasara',
+        season: 'Autumn',
+        desc: 'A major cultural celebration featuring processions, music, performances and traditional ceremonies.',
+        rituals: 'The festival includes cultural programmes, traditional processions and ceremonial celebrations.'
+      }
+    ],
+
+    crafts: [
+      {
+        name: 'Mysore Silk',
+        giStatus: true,
+        material: 'Silk',
+        desc: 'Traditional silk textile known for its fine weaving and distinctive zari work.'
+      }
+    ],
+
+    food: [
+      {
+        name: 'Mysore Pak',
+        giTagged: true,
+        desc: 'A traditional sweet prepared mainly with gram flour, ghee and sugar.',
+        culturalRoots: 'Mysore Pak is closely associated with the culinary heritage of the Mysuru region.'
+      }
+    ],
+
+    music: [
+      {
+        form: 'Carnatic Music',
+        instrument: 'Veena',
+        desc: 'Karnataka has a major place in South Indian classical music and has produced many important musical traditions and artists.'
+      }
+    ],
+
+    languages: [
+      {
+        name: 'Kannada',
+        script: 'Kannada',
+        speakersApprox: 'More than 40 million speakers',
+        oralTradition: 'Folk songs, vachana literature, stories, proverbs and traditional theatre preserve Kannada oral heritage.'
+      }
+    ],
+
+    stories: [
+      {
+        title: 'Vijayanagara Legends',
+        excerpt: 'Stories surrounding the Vijayanagara period connect monuments, royal history, trade and cultural life.',
+        theme: 'History, Architecture and Cultural Memory'
+      }
+    ],
+
+    artisanSpotlight: {
+      name: 'Mysuru Silk Weavers',
+      craft: 'Traditional Silk Weaving',
+      village: 'Mysuru region',
+      quote: 'Our weaving tradition carries generations of craftsmanship into every silk thread.'
+    }
+  },
+  {
+    id: 'madhya-pradesh',
+    name: 'Madhya Pradesh',
+    code: 'MP',
+    capital: 'Bhopal',
+    region: 'Central',
+    greeting: 'Namaste',
+    languageSpoken: 'Hindi',
+    audioGreetingText: 'Namaste',
+    summary: 'Madhya Pradesh is known for its tribal heritage, historic traditions, folk arts, temples, crafts and rich cultural landscapes.',
+
+    bannerImage: 'https://images.unsplash.com/photo-1600100397608-f0107e7b8f03?auto=format&fit=crop&w=1200&q=80',
+
+    verifiedSource: {
+      institution: 'Government of Madhya Pradesh',
+      referenceDoc: 'Department of Culture Resources',
+      verifiedYear: 2024
+    },
+
+    traditions: [
+      {
+        title: 'Gond Tribal Traditions',
+        desc: 'Gond communities preserve distinctive visual arts, oral traditions, rituals and nature-connected cultural practices.',
+        significance: 'These traditions preserve indigenous knowledge, community identity and relationships with the natural world.',
+        tags: ['Gond', 'Tribal Heritage', 'Indigenous Knowledge']
+      }
+    ],
+
+    festivals: [
+      {
+        name: 'Bhagoria',
+        season: 'Spring',
+        desc: 'A colourful tribal festival associated with communities of western Madhya Pradesh.',
+        rituals: 'Traditional music, dancing, colourful gatherings and community celebrations form part of the festival.'
+      }
+    ],
+
+    crafts: [
+      {
+        name: 'Gond Painting',
+        giStatus: true,
+        material: 'Natural colours and handmade surfaces',
+        desc: 'A distinctive painting tradition using patterned lines and forms inspired by nature, animals and everyday life.'
+      }
+    ],
+
+    food: [
+      {
+        name: 'Dal Bafla',
+        giTagged: false,
+        desc: 'A traditional wheat-based preparation served with dal, ghee and regional accompaniments.',
+        culturalRoots: 'Dal Bafla is an important part of the traditional food culture of central India.'
+      }
+    ],
+
+    music: [
+      {
+        form: 'Malwa Folk Music',
+        instrument: 'Dholak',
+        desc: 'Regional folk songs and performances accompany festivals, social gatherings and seasonal celebrations.'
+      }
+    ],
+
+    languages: [
+      {
+        name: 'Hindi',
+        script: 'Devanagari',
+        speakersApprox: 'Millions of speakers across Madhya Pradesh',
+        oralTradition: 'Folk songs, ballads, proverbs and regional storytelling preserve oral cultural knowledge.'
+      }
+    ],
+
+    stories: [
+      {
+        title: 'Gond Creation Stories',
+        excerpt: 'Traditional Gond narratives describe nature, ancestors, animals and the relationship between people and their environment.',
+        theme: 'Nature, Ancestry and Community'
+      }
+    ],
+
+    artisanSpotlight: {
+      name: 'Gond Artists',
+      craft: 'Gond Painting',
+      village: 'Central and eastern Madhya Pradesh',
+      quote: 'Our paintings turn stories of nature and community into patterns and forms.'
+    }
+  },
+  {
+    id: 'maharashtra',
+    name: 'Maharashtra',
+    code: 'MH',
+    capital: 'Mumbai',
+    region: 'West',
+    greeting: 'Namaskar',
+    languageSpoken: 'Marathi',
+    audioGreetingText: 'Namaskar',
+    summary: 'Maharashtra is known for its diverse folk traditions, devotional music, festivals, historic forts, crafts and rich Marathi cultural heritage.',
+
+    bannerImage: 'https://images.unsplash.com/photo-1570168007204-dfb528c6958f?auto=format&fit=crop&w=1200&q=80',
+
+    verifiedSource: {
+      institution: 'Government of Maharashtra',
+      referenceDoc: 'Department of Cultural Affairs Resources',
+      verifiedYear: 2024
+    },
+
+    traditions: [
+      {
+        title: 'Warli Art Tradition',
+        desc: 'Warli communities create distinctive paintings using simple geometric forms to depict people, animals, nature and everyday life.',
+        significance: 'The tradition preserves community knowledge, social life and relationships with nature.',
+        tags: ['Warli', 'Tribal Art', 'Folk Tradition']
+      }
+    ],
+
+    festivals: [
+      {
+        name: 'Ganesh Chaturthi',
+        season: 'Monsoon',
+        desc: 'A major festival celebrated with clay Ganesha images, prayers, music, cultural programmes and community gatherings.',
+        rituals: 'Families and communities install Ganesha images, conduct prayers and later participate in immersion ceremonies.'
+      }
+    ],
+
+    crafts: [
+      {
+        name: 'Warli Painting',
+        giStatus: true,
+        material: 'Mud walls and natural pigments',
+        desc: 'Traditional tribal painting using geometric figures to represent village life, nature, celebrations and daily activities.'
+      }
+    ],
+
+    food: [
+      {
+        name: 'Puran Poli',
+        giTagged: false,
+        desc: 'A traditional sweet flatbread prepared with a filling of cooked lentils and jaggery.',
+        culturalRoots: 'Puran Poli is closely associated with festive meals and family celebrations in Maharashtra.'
+      }
+    ],
+
+    music: [
+      {
+        form: 'Lavani',
+        instrument: 'Dholki',
+        desc: 'A lively Marathi performance tradition combining rhythmic music, poetry and expressive dance.'
+      }
+    ],
+
+    languages: [
+      {
+        name: 'Marathi',
+        script: 'Devanagari',
+        speakersApprox: 'More than 80 million speakers worldwide',
+        oralTradition: 'Powada, Lavani, folk songs, devotional traditions and storytelling preserve Marathi oral heritage.'
+      }
+    ],
+
+    stories: [
+      {
+        title: 'Maratha Folk Ballads',
+        excerpt: 'Traditional Powada performances narrate stories of historical figures, courage and important events.',
+        theme: 'History, Courage and Community Memory'
+      }
+    ],
+
+    artisanSpotlight: {
+      name: 'Warli Artists',
+      craft: 'Warli Painting',
+      village: 'Palghar region',
+      quote: 'Our paintings preserve stories of our people, nature and everyday life.'
+    }
+  },
+  {
+    id: 'manipur',
+    name: 'Manipur',
+    code: 'MN',
+    capital: 'Imphal',
+    region: 'North-East',
+    greeting: 'Khurumjari',
+    languageSpoken: 'Meitei',
+    audioGreetingText: 'Khurumjari',
+    summary: 'Manipur is known for its classical dance, indigenous traditions, colourful festivals, handloom crafts, folk music and rich oral heritage.',
+
+    bannerImage: 'https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80',
+
+    verifiedSource: {
+      institution: 'Government of Manipur',
+      referenceDoc: 'Department of Art and Culture Resources',
+      verifiedYear: 2024
+    },
+
+    traditions: [
+      {
+        title: 'Ras Leela Tradition',
+        desc: 'A classical dance-drama tradition combining devotional music, graceful movements and storytelling.',
+        significance: 'Ras Leela is an important part of Manipur’s performing arts heritage.',
+        tags: ['Classical Dance', 'Devotional Art', 'Performance']
+      }
+    ],
+
+    festivals: [
+      {
+        name: 'Yaoshang',
+        season: 'Spring',
+        desc: 'A major Manipuri festival celebrated with traditional sports, cultural performances, music and community gatherings.',
+        rituals: 'Communities organise traditional activities, sports, music and cultural celebrations.'
+      }
+    ],
+
+    crafts: [
+      {
+        name: 'Manipuri Handloom',
+        giStatus: false,
+        material: 'Cotton and silk',
+        desc: 'Traditional handwoven textiles featuring distinctive regional patterns and designs.'
+      }
+    ],
+
+    food: [
+      {
+        name: 'Eromba',
+        giTagged: false,
+        desc: 'A traditional Manipuri dish prepared with vegetables, fermented ingredients and chilli.',
+        culturalRoots: 'Eromba reflects the distinctive fermented-food traditions of Manipuri cuisine.'
+      }
+    ],
+
+    music: [
+      {
+        form: 'Pena Music',
+        instrument: 'Pena',
+        desc: 'Traditional Manipuri music performed with the pena, an important indigenous string instrument.'
+      }
+    ],
+
+    languages: [
+      {
+        name: 'Meitei',
+        script: 'Meitei Mayek',
+        speakersApprox: 'Millions of speakers in Manipur and neighbouring regions',
+        oralTradition: 'Folk songs, legends, traditional performances and oral narratives preserve Meitei cultural memory.'
+      }
+    ],
+
+    stories: [
+      {
+        title: 'Khamba and Thoibi',
+        excerpt: 'A well-known Manipuri legend remembered through dance, theatre, literature and oral storytelling.',
+        theme: 'Love, Courage and Cultural Memory'
+      }
+    ],
+
+    artisanSpotlight: {
+      name: 'Manipuri Handloom Weavers',
+      craft: 'Traditional Handloom',
+      village: 'Imphal Valley',
+      quote: 'Every woven pattern carries the identity and memory of our community.'
+    }
+  },
+  {
+    id: 'meghalaya',
+    name: 'Meghalaya',
+    code: 'ML',
+    capital: 'Shillong',
+    region: 'North-East',
+    greeting: 'Kumno',
+    languageSpoken: 'Khasi',
+    audioGreetingText: 'Kumno',
+    summary: 'Meghalaya is known for its Khasi, Jaintia and Garo traditions, living root bridges, folk music, festivals and strong community heritage.',
+
+    bannerImage: 'https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80',
+
+    verifiedSource: {
+      institution: 'Government of Meghalaya',
+      referenceDoc: 'Department of Arts and Culture Resources',
+      verifiedYear: 2024
+    },
+
+    traditions: [
+      {
+        title: 'Living Root Bridge Tradition',
+        desc: 'Communities have traditionally guided the roots of rubber fig trees to create strong natural bridges across streams.',
+        significance: 'The bridges demonstrate generations of ecological knowledge and community cooperation.',
+        tags: ['Living Heritage', 'Nature', 'Community Knowledge']
+      }
+    ],
+
+    festivals: [
+      {
+        name: 'Wangala',
+        season: 'Autumn',
+        desc: 'A major Garo harvest festival featuring traditional music, dance and community celebrations.',
+        rituals: 'Traditional dances, drums, songs and thanksgiving ceremonies mark the harvest season.'
+      }
+    ],
+
+    crafts: [
+      {
+        name: 'Khasi Cane and Bamboo Craft',
+        giStatus: false,
+        material: 'Cane and bamboo',
+        desc: 'Traditional artisans create baskets, mats, household objects and decorative items using locally available materials.'
+      }
+    ],
+
+    food: [
+      {
+        name: 'Jadoh',
+        giTagged: false,
+        desc: 'A traditional Khasi rice and meat dish prepared with regional ingredients and spices.',
+        culturalRoots: 'Jadoh is an important part of Khasi culinary traditions and community meals.'
+      }
+    ],
+
+    music: [
+      {
+        form: 'Garo Folk Music',
+        instrument: 'Dama',
+        desc: 'Traditional songs and rhythms accompany festivals, dances, community gatherings and seasonal celebrations.'
+      }
+    ],
+
+    languages: [
+      {
+        name: 'Khasi',
+        script: 'Latin',
+        speakersApprox: 'Millions of speakers across Meghalaya and neighbouring areas',
+        oralTradition: 'Khasi oral traditions include folktales, songs, proverbs and narratives passed through generations.'
+      }
+    ],
+
+    stories: [
+      {
+        title: 'Khasi Origin Stories',
+        excerpt: 'Traditional narratives connect communities with sacred landscapes, ancestors, forests and the natural world.',
+        theme: 'Nature, Ancestry and Community'
+      }
+    ],
+
+    artisanSpotlight: {
+      name: 'Meghalaya Bamboo Artisans',
+      craft: 'Cane and Bamboo Craft',
+      village: 'Khasi Hills',
+      quote: 'Our craft uses the materials of our land to preserve skills passed from one generation to another.'
+    }
+  },
+  {
+    id: 'mizoram',
+    name: 'Mizoram',
+    code: 'MZ',
+    capital: 'Aizawl',
+    region: 'North-East',
+    greeting: 'Chibai',
+    languageSpoken: 'Mizo',
+    audioGreetingText: 'Chibai',
+    summary: 'Mizoram is known for its Mizo community traditions, bamboo crafts, vibrant festivals, folk music and strong choral heritage.',
+
+    bannerImage: 'https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80',
+
+    verifiedSource: {
+      institution: 'Government of Mizoram',
+      referenceDoc: 'Department of Art and Culture Resources',
+      verifiedYear: 2024
+    },
+
+    traditions: [
+      {
+        title: 'Mizo Community Traditions',
+        desc: 'Community cooperation, traditional dances, songs and village customs form an important part of Mizo cultural life.',
+        significance: 'These traditions preserve community identity, cooperation and intergenerational cultural knowledge.',
+        tags: ['Mizo Culture', 'Community', 'Folk Tradition']
+      }
+    ],
+
+    festivals: [
+      {
+        name: 'Chapchar Kut',
+        season: 'Spring',
+        desc: 'A major Mizo festival featuring traditional dances, music, colourful clothing and community celebrations.',
+        rituals: 'Traditional performances, dances, songs and community gatherings are held during the festival.'
+      }
+    ],
+
+    crafts: [
+      {
+        name: 'Mizo Bamboo Craft',
+        giStatus: false,
+        material: 'Bamboo and cane',
+        desc: 'Traditional artisans create baskets, mats, furniture and household objects from bamboo and cane.'
+      }
+    ],
+
+    food: [
+      {
+        name: 'Bai',
+        giTagged: false,
+        desc: 'A traditional Mizo vegetable preparation made with locally available ingredients.',
+        culturalRoots: 'Bai reflects the use of vegetables, herbs and locally sourced ingredients in Mizo cuisine.'
+      }
+    ],
+
+    music: [
+      {
+        form: 'Mizo Folk Music',
+        instrument: 'Khuang',
+        desc: 'Traditional songs and drum rhythms accompany community celebrations, dances and cultural events.'
+      }
+    ],
+
+    languages: [
+      {
+        name: 'Mizo',
+        script: 'Latin',
+        speakersApprox: 'Millions of speakers across Mizoram and neighbouring regions',
+        oralTradition: 'Folk songs, legends, proverbs and community narratives preserve Mizo oral heritage.'
+      }
+    ],
+
+    stories: [
+      {
+        title: 'Mizo Folk Legends',
+        excerpt: 'Traditional stories describe heroes, animals, landscapes, community values and relationships with nature.',
+        theme: 'Nature, Community and Ancestral Memory'
+      }
+    ],
+
+    artisanSpotlight: {
+      name: 'Mizo Bamboo Artisans',
+      craft: 'Bamboo and Cane Craft',
+      village: 'Rural Mizoram',
+      quote: 'Bamboo is part of our land, our livelihood and our cultural identity.'
+    }
+  },
+  {
+    id: 'nagaland',
+    name: 'Nagaland',
+    code: 'NL',
+    capital: 'Kohima',
+    region: 'North-East',
+    greeting: 'Kuknalim',
+    languageSpoken: 'Nagamese',
+    audioGreetingText: 'Kuknalim',
+    summary: 'Nagaland is known for its diverse Naga communities, traditional festivals, handloom and crafts, folk music and strong oral traditions.',
+
+    bannerImage: 'https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80',
+
+    verifiedSource: {
+      institution: 'Government of Nagaland',
+      referenceDoc: 'Department of Art and Culture Resources',
+      verifiedYear: 2024
+    },
+
+    traditions: [
+      {
+        title: 'Naga Community Traditions',
+        desc: 'Traditional village institutions, community gatherings, dances, crafts and oral customs form an important part of Naga cultural life.',
+        significance: 'These traditions preserve the distinct identities and collective memory of Naga communities.',
+        tags: ['Naga Heritage', 'Community', 'Oral Tradition']
+      }
+    ],
+
+    festivals: [
+      {
+        name: 'Hornbill Festival',
+        season: 'Winter',
+        desc: 'A major cultural festival showcasing the traditional dances, music, crafts and food traditions of Nagaland’s communities.',
+        rituals: 'Cultural performances, traditional games, music, crafts and community celebrations are held during the festival.'
+      }
+    ],
+
+    crafts: [
+      {
+        name: 'Naga Shawl',
+        giStatus: false,
+        material: 'Cotton and wool',
+        desc: 'Traditional handwoven textiles featuring distinctive patterns associated with different Naga communities.'
+      }
+    ],
+
+    food: [
+      {
+        name: 'Smoked Pork with Bamboo Shoot',
+        giTagged: false,
+        desc: 'A traditional Naga preparation combining smoked meat with locally used bamboo shoot.',
+        culturalRoots: 'The dish reflects the importance of preservation techniques and locally sourced ingredients in Naga cuisine.'
+      }
+    ],
+
+    music: [
+      {
+        form: 'Naga Folk Music',
+        instrument: 'Log Drum',
+        desc: 'Traditional songs and rhythms accompany community events, festivals, dances and ceremonies.'
+      }
+    ],
+
+    languages: [
+      {
+        name: 'Nagamese',
+        script: 'Latin',
+        speakersApprox: 'Widely used as a common language across Nagaland',
+        oralTradition: 'Folk songs, stories, proverbs and community narratives preserve the region’s oral heritage.'
+      }
+    ],
+
+    stories: [
+      {
+        title: 'Naga Village Legends',
+        excerpt: 'Traditional stories describe ancestral journeys, village origins, heroes, animals and relationships with the natural world.',
+        theme: 'Ancestry, Community and Nature'
+      }
+    ],
+
+    artisanSpotlight: {
+      name: 'Naga Weavers',
+      craft: 'Traditional Shawl Weaving',
+      village: 'Villages across Nagaland',
+      quote: 'Every pattern carries the identity and story of the community that created it.'
+    }
+  },
+  {
+    id: 'odisha',
+    name: 'Odisha',
+    code: 'OD',
+    capital: 'Bhubaneswar',
+    region: 'East',
+    greeting: 'Namaskar',
+    languageSpoken: 'Odia',
+    audioGreetingText: 'Namaskar',
+    summary: 'Odisha is known for its temple traditions, classical dance, Pattachitra painting, handloom crafts, festivals and rich Odia cultural heritage.',
+
+    bannerImage: 'https://images.unsplash.com/photo-1596401057633-54a8fe8ef647?auto=format&fit=crop&w=1200&q=80',
+
+    verifiedSource: {
+      institution: 'Government of Odisha',
+      referenceDoc: 'Department of Odia Language, Literature and Culture Resources',
+      verifiedYear: 2024
+    },
+
+    traditions: [
+      {
+        title: 'Jagannath Temple Traditions',
+        desc: 'Rituals, festivals, devotional music and community practices associated with the Jagannath tradition form an important part of Odisha’s cultural heritage.',
+        significance: 'These traditions connect religious practice, art, food and community life across generations.',
+        tags: ['Jagannath', 'Temple Heritage', 'Devotional Tradition']
+      }
+    ],
+
+    festivals: [
+      {
+        name: 'Rath Yatra',
+        season: 'Summer',
+        desc: 'A major festival associated with Lord Jagannath and the ceremonial chariot procession in Puri.',
+        rituals: 'The deities are ceremonially taken on large decorated chariots during the annual procession.'
+      }
+    ],
+
+    crafts: [
+      {
+        name: 'Pattachitra',
+        giStatus: true,
+        material: 'Cloth and natural pigments',
+        desc: 'Traditional Odisha painting known for detailed mythological themes, decorative borders and distinctive visual style.'
+      }
+    ],
+
+    food: [
+      {
+        name: 'Pakhala Bhata',
+        giTagged: false,
+        desc: 'A traditional fermented rice preparation commonly associated with Odisha’s summer food culture.',
+        culturalRoots: 'Pakhala reflects Odisha’s rice-based culinary traditions and seasonal food practices.'
+      }
+    ],
+
+    music: [
+      {
+        form: 'Odissi Music',
+        instrument: 'Mardala',
+        desc: 'A classical music tradition closely connected with Odissi dance and devotional performance.'
+      }
+    ],
+
+    languages: [
+      {
+        name: 'Odia',
+        script: 'Odia',
+        speakersApprox: 'More than 35 million speakers',
+        oralTradition: 'Folk songs, ballads, proverbs, devotional poetry and storytelling preserve Odia oral heritage.'
+      }
+    ],
+
+    stories: [
+      {
+        title: 'Jagannath Folk Stories',
+        excerpt: 'Stories surrounding Lord Jagannath connect devotion, community traditions, local legends and the cultural identity of Odisha.',
+        theme: 'Faith, Community and Cultural Memory'
+      }
+    ],
+
+    artisanSpotlight: {
+      name: 'Pattachitra Artists',
+      craft: 'Pattachitra Painting',
+      village: 'Raghurajpur',
+      quote: 'Each painted line carries a story from our artistic and devotional tradition.'
+    }
+  },
+  {
+    id: 'punjab',
+    name: 'Punjab',
+    code: 'PB',
+    capital: 'Chandigarh',
+    region: 'North',
+    greeting: 'Sat Sri Akal',
+    languageSpoken: 'Punjabi',
+    audioGreetingText: 'Sat Sri Akal',
+    summary: 'Punjab is known for its vibrant folk traditions, Sikh heritage, Bhangra and Giddha, Phulkari embroidery and rich Punjabi culinary culture.',
+
+    bannerImage: 'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1200&q=80',
+
+    verifiedSource: {
+      institution: 'Government of Punjab',
+      referenceDoc: 'Department of Cultural Affairs Resources',
+      verifiedYear: 2024
+    },
+
+    traditions: [
+      {
+        title: 'Bhangra and Giddha',
+        desc: 'Traditional Punjabi dance forms performed during celebrations, festivals and community gatherings.',
+        significance: 'These dances preserve Punjabi musical rhythms, community expression and festive traditions.',
+        tags: ['Folk Dance', 'Punjabi Culture', 'Community']
+      }
+    ],
+
+    festivals: [
+      {
+        name: 'Baisakhi',
+        season: 'Spring',
+        desc: 'A major harvest festival celebrated with prayers, fairs, music, dance and community gatherings.',
+        rituals: 'People visit gurdwaras, participate in community events and celebrate with traditional music and food.'
+      }
+    ],
+
+    crafts: [
+      {
+        name: 'Phulkari',
+        giStatus: true,
+        material: 'Cotton and silk threads',
+        desc: 'Traditional Punjabi embroidery featuring colourful floral and geometric patterns.'
+      }
+    ],
+
+    food: [
+      {
+        name: 'Makki di Roti and Sarson da Saag',
+        giTagged: false,
+        desc: 'A well-known traditional Punjabi combination made with maize flatbread and mustard greens.',
+        culturalRoots: 'The dish reflects Punjab’s agricultural traditions and seasonal food culture.'
+      }
+    ],
+
+    music: [
+      {
+        form: 'Punjabi Folk Music',
+        instrument: 'Dhol',
+        desc: 'Energetic folk music accompanies Bhangra, celebrations, weddings and community gatherings.'
+      }
+    ],
+
+    languages: [
+      {
+        name: 'Punjabi',
+        script: 'Gurmukhi',
+        speakersApprox: 'More than 30 million speakers worldwide',
+        oralTradition: 'Folk songs, ballads, Sufi poetry, proverbs and storytelling preserve Punjabi oral heritage.'
+      }
+    ],
+
+    stories: [
+      {
+        title: 'Heer Ranjha',
+        excerpt: 'The legendary love story of Heer and Ranjha is deeply embedded in Punjabi poetry, music and oral storytelling.',
+        theme: 'Love, Society and Cultural Memory'
+      }
+    ],
+
+    artisanSpotlight: {
+      name: 'Phulkari Artisans',
+      craft: 'Phulkari Embroidery',
+      village: 'Rural Punjab',
+      quote: 'Every embroidered pattern carries a piece of Punjabi family and community memory.'
+    }
+  },
+  {
+    id: 'sikkim',
+    name: 'Sikkim',
+    code: 'SK',
+    capital: 'Gangtok',
+    region: 'North-East',
+    greeting: 'Namaste',
+    languageSpoken: 'Nepali',
+    audioGreetingText: 'Namaste',
+    summary: 'Sikkim is known for its Himalayan Buddhist heritage, diverse communities, traditional festivals, handloom crafts and mountain culture.',
+
+    bannerImage: 'https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=80',
+
+    verifiedSource: {
+      institution: 'Government of Sikkim',
+      referenceDoc: 'Department of Cultural Affairs and Heritage Resources',
+      verifiedYear: 2024
+    },
+
+    traditions: [
+      {
+        title: 'Himalayan Buddhist Traditions',
+        desc: 'Monasteries, prayer ceremonies, traditional music and community rituals form an important part of Sikkimese cultural life.',
+        significance: 'These practices preserve the spiritual and cultural heritage of Sikkim’s Himalayan communities.',
+        tags: ['Buddhist Heritage', 'Himalayan Culture', 'Community']
+      }
+    ],
+
+    festivals: [
+      {
+        name: 'Losar',
+        season: 'Winter',
+        desc: 'A traditional Himalayan New Year celebration marked by prayers, family gatherings and cultural activities.',
+        rituals: 'Families visit monasteries, offer prayers and participate in traditional celebrations.'
+      }
+    ],
+
+    crafts: [
+      {
+        name: 'Sikkim Carpet Weaving',
+        giStatus: true,
+        material: 'Wool',
+        desc: 'Traditional handwoven carpets featuring geometric and Buddhist-inspired motifs.'
+      }
+    ],
+
+    food: [
+      {
+        name: 'Momos',
+        giTagged: false,
+        desc: 'Steamed dumplings widely enjoyed in Sikkim and across the Himalayan region.',
+        culturalRoots: 'Momos reflect the Tibetan and Himalayan influences present in Sikkimese food culture.'
+      }
+    ],
+
+    music: [
+      {
+        form: 'Sikkimese Folk Music',
+        instrument: 'Damphu',
+        desc: 'Traditional songs and instrumental performances accompany community celebrations and cultural events.'
+      }
+    ],
+
+    languages: [
+      {
+        name: 'Nepali',
+        script: 'Devanagari',
+        speakersApprox: 'Widely spoken across Sikkim',
+        oralTradition: 'Folk songs, legends, proverbs and community storytelling preserve the oral heritage of Himalayan communities.'
+      }
+    ],
+
+    stories: [
+      {
+        title: 'Kanchenjunga Legends',
+        excerpt: 'Traditional Himalayan narratives connect sacred mountains, monasteries, nature and community memory.',
+        theme: 'Nature, Faith and Cultural Memory'
+      }
+    ],
+
+    artisanSpotlight: {
+      name: 'Sikkim Carpet Weavers',
+      craft: 'Traditional Carpet Weaving',
+      village: 'Gangtok region',
+      quote: 'Our patterns carry the colours and stories of the Himalayan landscape.'
+    }
+  },
+  {
+    id: 'telangana',
+    name: 'Telangana',
+    code: 'TS',
+    capital: 'Hyderabad',
+    region: 'South',
+    greeting: 'Namaskaram',
+    languageSpoken: 'Telugu',
+    audioGreetingText: 'Namaskaram',
+    summary: 'Telangana is known for its Bathukamma festival, Perini dance tradition, handloom crafts, Deccani food and rich Telugu folk heritage.',
+
+    bannerImage: 'https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1200&q=80',
+
+    verifiedSource: {
+      institution: 'Government of Telangana',
+      referenceDoc: 'Department of Language and Culture Resources',
+      verifiedYear: 2024
+    },
+
+    traditions: [
+      {
+        title: 'Perini Dance Tradition',
+        desc: 'A historic warrior dance tradition featuring energetic movements, rhythm and traditional percussion.',
+        significance: 'Perini preserves an important part of Telangana’s performing arts heritage.',
+        tags: ['Dance', 'Warrior Tradition', 'Telangana']
+      }
+    ],
+
+    festivals: [
+      {
+        name: 'Bathukamma',
+        season: 'Autumn',
+        desc: 'A major floral festival celebrated by women with colourful flower arrangements, songs and community gatherings.',
+        rituals: 'Women arrange flowers into Bathukamma formations, sing traditional songs and gather for festive celebrations.'
+      }
+    ],
+
+    crafts: [
+      {
+        name: 'Pochampally Ikat',
+        giStatus: true,
+        material: 'Cotton and silk yarn',
+        desc: 'A distinctive resist-dyeing textile tradition known for geometric patterns and precise weaving.'
+      }
+    ],
+
+    food: [
+      {
+        name: 'Hyderabadi Biryani',
+        giTagged: false,
+        desc: 'A celebrated rice dish prepared with fragrant rice, spices and meat or vegetables.',
+        culturalRoots: 'It reflects the layered culinary influences of the Hyderabad and Deccan region.'
+      }
+    ],
+
+    music: [
+      {
+        form: 'Oggu Katha',
+        instrument: 'Dolu',
+        desc: 'A traditional narrative performance combining storytelling, singing and percussion.'
+      }
+    ],
+
+    languages: [
+      {
+        name: 'Telugu',
+        script: 'Telugu',
+        speakersApprox: 'More than 80 million speakers worldwide',
+        oralTradition: 'Folk songs, ballads, storytelling and village performance traditions preserve Telugu oral heritage.'
+      }
+    ],
+
+    stories: [
+      {
+        title: 'Sammakka Saralamma Legends',
+        excerpt: 'Traditional stories surrounding Sammakka and Saralamma remain an important part of Telangana’s cultural memory.',
+        theme: 'Courage, Community and Cultural Memory'
+      }
+    ],
+
+    artisanSpotlight: {
+      name: 'Pochampally Weavers',
+      craft: 'Ikat Weaving',
+      village: 'Pochampally',
+      quote: 'Every geometric pattern reflects the patience and skill of generations of weavers.'
+    }
+  },
+  {
+    id: 'tripura',
+    name: 'Tripura',
+    code: 'TR',
+    capital: 'Agartala',
+    region: 'North-East',
+    greeting: 'Nomoskar',
+    languageSpoken: 'Bengali',
+    audioGreetingText: 'Nomoskar',
+    summary: 'Tripura is known for its indigenous traditions, bamboo crafts, folk music, festivals and the cultural heritage of its diverse communities.',
+
+    bannerImage: 'https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80',
+
+    verifiedSource: {
+      institution: 'Government of Tripura',
+      referenceDoc: 'Department of Information, Cultural Affairs and Tourism Resources',
+      verifiedYear: 2024
+    },
+
+    traditions: [
+      {
+        title: 'Tripuri Indigenous Traditions',
+        desc: 'Traditional community customs, dances, rituals and craft practices preserve the cultural identity of Tripura’s indigenous communities.',
+        significance: 'These traditions carry knowledge about community life, nature and ancestral practices.',
+        tags: ['Indigenous Heritage', 'Community', 'Folk Tradition']
+      }
+    ],
+
+    festivals: [
+      {
+        name: 'Garia Puja',
+        season: 'Spring',
+        desc: 'An important traditional festival associated with prosperity, agriculture and community well-being.',
+        rituals: 'Communities perform traditional rituals, songs and dances and seek blessings for prosperity.'
+      }
+    ],
+
+    crafts: [
+      {
+        name: 'Bamboo Craft',
+        giStatus: false,
+        material: 'Bamboo and cane',
+        desc: 'Traditional artisans create baskets, mats, furniture and decorative objects using bamboo and cane.'
+      }
+    ],
+
+    food: [
+      {
+        name: 'Mui Borok',
+        giTagged: false,
+        desc: 'A traditional Tripuri cuisine known for locally sourced vegetables, herbs and fermented ingredients.',
+        culturalRoots: 'Mui Borok reflects the food traditions and natural resources of Tripura’s indigenous communities.'
+      }
+    ],
+
+    music: [
+      {
+        form: 'Tripuri Folk Music',
+        instrument: 'Khamb',
+        desc: 'Traditional songs and rhythms accompany festivals, dances, rituals and community gatherings.'
+      }
+    ],
+
+    languages: [
+      {
+        name: 'Kokborok',
+        script: 'Latin and Bengali',
+        speakersApprox: 'Widely spoken among indigenous communities of Tripura',
+        oralTradition: 'Folk tales, songs, legends and oral histories preserve Kokborok cultural traditions.'
+      }
+    ],
+
+    stories: [
+      {
+        title: 'Tripuri Folk Legends',
+        excerpt: 'Traditional stories connect ancestors, forests, rivers, animals and the cultural memory of Tripura’s communities.',
+        theme: 'Nature, Ancestry and Community'
+      }
+    ],
+
+    artisanSpotlight: {
+      name: 'Tripura Bamboo Artisans',
+      craft: 'Bamboo and Cane Craft',
+      village: 'Rural Tripura',
+      quote: 'Our bamboo craft connects everyday life with the knowledge passed down through generations.'
+    }
+  },
+  {
+    id: 'uttar-pradesh',
+    name: 'Uttar Pradesh',
+    code: 'UP',
+    capital: 'Lucknow',
+    region: 'North',
+    greeting: 'Namaste',
+    languageSpoken: 'Hindi',
+    audioGreetingText: 'Namaste',
+    summary: 'Uttar Pradesh is known for its sacred cities, classical and folk traditions, handicrafts, festivals, music and rich Awadhi and Braj cultural heritage.',
+
+    bannerImage: 'https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1200&q=80',
+
+    verifiedSource: {
+      institution: 'Government of Uttar Pradesh',
+      referenceDoc: 'Department of Culture Resources',
+      verifiedYear: 2024
+    },
+
+    traditions: [
+      {
+        title: 'Kathak Tradition',
+        desc: 'A major North Indian classical dance tradition combining rhythmic footwork, expressive storytelling and music.',
+        significance: 'Kathak has deep historical connections with the cultural traditions of North India and Uttar Pradesh.',
+        tags: ['Classical Dance', 'Storytelling', 'North India']
+      }
+    ],
+
+    festivals: [
+      {
+        name: 'Kumbh Mela',
+        season: 'Winter',
+        desc: 'A major pilgrimage gathering held periodically at Prayagraj and associated with sacred bathing, rituals and spiritual traditions.',
+        rituals: 'Pilgrims gather for sacred bathing, prayers and religious observances along the river.'
+      }
+    ],
+
+    crafts: [
+      {
+        name: 'Banarasi Brocade',
+        giStatus: true,
+        material: 'Silk and zari',
+        desc: 'Traditional Varanasi textile known for intricate weaving, rich patterns and detailed zari work.'
+      }
+    ],
+
+    food: [
+      {
+        name: 'Awadhi Biryani',
+        giTagged: false,
+        desc: 'A fragrant rice preparation associated with the culinary traditions of the Awadh region.',
+        culturalRoots: 'Awadhi cuisine reflects the historical culinary traditions of Lucknow and surrounding regions.'
+      }
+    ],
+
+    music: [
+      {
+        form: 'Hindustani Classical Music',
+        instrument: 'Sitar',
+        desc: 'Uttar Pradesh has a long association with Hindustani classical music, devotional music and traditional performance.'
+      }
+    ],
+
+    languages: [
+      {
+        name: 'Hindi',
+        script: 'Devanagari',
+        speakersApprox: 'Hundreds of millions of speakers across India',
+        oralTradition: 'Ramleela, folk songs, ballads, poetry and regional storytelling preserve rich oral traditions.'
+      }
+    ],
+
+    stories: [
+      {
+        title: 'Ramleela Traditions',
+        excerpt: 'Stories from the Ramayana are performed through dramatic and musical traditions in many communities across Uttar Pradesh.',
+        theme: 'Devotion, Storytelling and Community'
+      }
+    ],
+
+    artisanSpotlight: {
+      name: 'Banarasi Weavers',
+      craft: 'Banarasi Silk Weaving',
+      village: 'Varanasi region',
+      quote: 'Every woven motif carries the skill and artistic memory of generations.'
+    }
+  },
+  {
+    id: 'uttarakhand',
+    name: 'Uttarakhand',
+    code: 'UK',
+    capital: 'Dehradun',
+    region: 'North',
+    greeting: 'Namaste',
+    languageSpoken: 'Hindi',
+    audioGreetingText: 'Namaste',
+    summary: 'Uttarakhand is known for its Himalayan pilgrimage traditions, folk music and dance, wool and wood crafts, mountain cuisine and rich oral heritage.',
+    bannerImage: 'https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80',
+    verifiedSource: {
+      institution: 'Government of Uttarakhand',
+      referenceDoc: 'Department of Culture Resources',
+      verifiedYear: 2024
+    },
+    traditions: [
+      {
+        title: 'Himalayan Pilgrimage Traditions',
+        desc: 'Traditional pilgrimage routes, temple rituals, seasonal fairs and community practices are an important part of Uttarakhand’s cultural life.',
+        significance: 'These traditions connect mountain communities with sacred landscapes and generations of cultural memory.',
+        tags: ['Himalayan Heritage', 'Pilgrimage', 'Community']
+      }
+    ],
+    festivals: [
+      {
+        name: 'Nanda Devi Raj Jat',
+        season: 'Monsoon',
+        desc: 'A major Himalayan pilgrimage tradition associated with Goddess Nanda Devi and communities of the Garhwal region.',
+        rituals: 'Pilgrims travel through mountain routes, participate in prayers and observe traditional ceremonies.'
+      }
+    ],
+    crafts: [
+      {
+        name: 'Aipan Art',
+        giStatus: false,
+        material: 'Natural pigments on traditional surfaces',
+        desc: 'A traditional Kumaoni decorative art using geometric and ritual motifs.'
+      }
+    ],
+    food: [
+      {
+        name: 'Kafuli',
+        giTagged: false,
+        desc: 'A traditional leafy-green preparation associated with the mountain cuisine of Uttarakhand.',
+        culturalRoots: 'Kafuli reflects the use of locally grown greens and seasonal ingredients in Himalayan food traditions.'
+      }
+    ],
+    music: [
+      {
+        form: 'Garhwali Folk Music',
+        instrument: 'Dhol and Damau',
+        desc: 'Traditional songs and rhythms accompany festivals, weddings, fairs and community gatherings.'
+      }
+    ],
+    languages: [
+      {
+        name: 'Garhwali',
+        script: 'Devanagari',
+        speakersApprox: 'Widely spoken across Garhwal and neighbouring Himalayan communities',
+        oralTradition: 'Folk songs, ballads, legends and village storytelling preserve Garhwali oral heritage.'
+      }
+    ],
+    stories: [
+      {
+        title: 'Pandav Dance Legends',
+        excerpt: 'Traditional performances narrate episodes from the Mahabharata through music, dance and community storytelling.',
+        theme: 'Epic Tradition, Community and Cultural Memory'
+      }
+    ],
+    artisanSpotlight: {
+      name: 'Kumaoni Aipan Artists',
+      craft: 'Aipan Folk Art',
+      village: 'Kumaon region',
+      quote: 'Our patterns carry the blessings and memories of generations of mountain households.'
+    }
+  },
 ];
+

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { heritagePlaces } from '../../data/heritageplaces';
 import { useHeritage } from '../../context/HeritageContext';
 import { statesHeritageData } from '../../data/statesHeritageData';
 import { StateHeritage, CulturalDomain } from '../../types';
@@ -41,17 +42,65 @@ export const LivingHeritageMap: React.FC = () => {
   const [isPlayingAudio, setIsPlayingAudio] = useState<boolean>(false);
 
   // Filter states
-  const filteredStates = statesHeritageData.filter(state => {
-    const matchesRegion = activeRegion === 'All' || state.region === activeRegion;
-    const matchesSearch = 
-      state.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      state.crafts.some(c => c.name.toLowerCase().includes(searchQuery.toLowerCase())) ||
-      state.traditions.some(t => t.title.toLowerCase().includes(searchQuery.toLowerCase()));
-    return matchesRegion && matchesSearch;
+  // Filter states and places
+const filteredStates = statesHeritageData.filter((state) => {
+  const query = searchQuery.trim().toLowerCase();
+
+  const matchesRegion =
+    activeRegion === 'All' || state.region === activeRegion;
+  
+  const matchesSearch =
+  query === '' ||
+  state.name.toLowerCase().includes(query) ||
+  state.capital.toLowerCase().includes(query) ||
+  state.crafts.some((c) => c.name.toLowerCase().includes(query)) ||
+  state.traditions.some((t) => t.title.toLowerCase().includes(query)) ||
+  state.festivals.some((f) => f.name.toLowerCase().includes(query)) ||
+  state.food.some((f) => f.name.toLowerCase().includes(query)) ||
+  state.music.some((m) => m.form.toLowerCase().includes(query)) ||
+  state.languages.some((l) => l.name.toLowerCase().includes(query)) ||
+  state.stories.some((s) => s.title.toLowerCase().includes(query)) ||
+  heritagePlaces.some(
+    (place) =>
+      place.name.toLowerCase().includes(query) &&
+      place.stateCode === state.code
+  );
+  return matchesRegion && matchesSearch;
+
   });
 
   const currentState = selectedState || statesHeritageData[0];
-
+  const stateMapLocations: Record<string, { lat: number; lng: number }> = {
+  'Tamil Nadu': { lat: 11.1271, lng: 78.6569 },
+  'Kerala': { lat: 10.8505, lng: 76.2711 },
+  'Karnataka': { lat: 15.3173, lng: 75.7139 },
+  'Andhra Pradesh': { lat: 15.9129, lng: 79.7400 },
+  'Telangana': { lat: 18.1124, lng: 79.0193 },
+  'Maharashtra': { lat: 19.7515, lng: 75.7139 },
+  'Gujarat': { lat: 22.2587, lng: 71.1924 },
+  'Rajasthan': { lat: 27.0238, lng: 74.2179 },
+  'Punjab': { lat: 31.1471, lng: 75.3412 },
+  'Haryana': { lat: 29.0588, lng: 76.0856 },
+  'Uttar Pradesh': { lat: 26.8467, lng: 80.9462 },
+  'Bihar': { lat: 25.0961, lng: 85.3131 },
+  'Jharkhand': { lat: 23.6102, lng: 85.2799 },
+  'West Bengal': { lat: 22.9868, lng: 87.8550 },
+  'Odisha': { lat: 20.9517, lng: 85.0985 },
+  'Assam': { lat: 26.2006, lng: 92.9376 },
+  'Arunachal Pradesh': { lat: 28.2180, lng: 94.7278 },
+  'Manipur': { lat: 24.6637, lng: 93.9063 },
+  'Meghalaya': { lat: 25.4670, lng: 91.3662 },
+  'Mizoram': { lat: 23.1645, lng: 92.9376 },
+  'Nagaland': { lat: 26.1584, lng: 94.5624 },
+  'Tripura': { lat: 23.9408, lng: 91.9882 },
+  'Sikkim': { lat: 27.5330, lng: 88.5122 },
+  'Goa': { lat: 15.2993, lng: 74.1240 },
+  'Madhya Pradesh': { lat: 22.9734, lng: 78.6569 },
+  'Chhattisgarh': { lat: 21.2787, lng: 81.8661 },
+  'Uttarakhand': { lat: 30.0668, lng: 79.0193 },
+  'Himachal Pradesh': { lat: 31.1048, lng: 77.1734 },
+};
+ const mapPoint = stateMapLocations[currentState.name];
   const isBookmarked = savedHeritageItems.some(
     item => item.title === currentState.name && item.category === 'Living Heritage State'
   );
@@ -134,7 +183,20 @@ export const LivingHeritageMap: React.FC = () => {
           ))}
         </div>
       </div>
-
+      {/* Map */}
+      {mapPoint && ( 
+      <div className="mt-6 overflow-hidden rounded-2xl border border-stone-200 shadow-lg">
+      <iframe
+      title={`${currentState.name} Map`}
+      src={`https://www.google.com/maps?q=${mapPoint.lat},${mapPoint.lng}&z=6&output=embed`}
+      width="100%"
+      height="450"
+      style={{ border: 0 }}
+      loading="lazy"
+      allowFullScreen
+    />
+  </div>
+)}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
         
         {/* Left Column: Interactive Map & State Selector */}
@@ -183,13 +245,28 @@ export const LivingHeritageMap: React.FC = () => {
                       <div className={`text-[11px] truncate ${isSelected ? 'text-amber-100' : 'text-stone-500'}`}>
                         {state.capital} • {state.region}
                       </div>
+                      {searchQuery.trim() &&
+  heritagePlaces
+    .filter(
+      (place) =>
+        place.stateCode === state.code &&
+        place.name.toLowerCase().includes(searchQuery.trim().toLowerCase())
+    )
+    .map((place) => (
+      <div
+        key={place.name}
+        className="mt-1 text-xs text-emerald-700 font-medium"
+      >
+        📍 {place.name} — {place.state}
+      </div>
+    ))}
                     </div>
                   </button>
                 );
               })}
             </div>
-          </div>
-
+          </div> 
+          
           {/* Stylized Visual Vector India Map Mapbox-style Preview */}
           <div className="bg-gradient-to-b from-stone-900 to-stone-950 text-white rounded-3xl p-6 shadow-xl border border-stone-800 relative overflow-hidden">
             <div className="flex items-center justify-between mb-4">
@@ -209,7 +286,14 @@ export const LivingHeritageMap: React.FC = () => {
               </svg>
 
               {/* Hotspot pin for current state */}
-              <div className="absolute inset-0 flex items-center justify-center">
+              <div
+               className="absolute"
+               style={{
+                left: `${((mapPoint?.lng ?? 78) - 68) / 30 * 100}%`,
+               top: `${((35 - (mapPoint?.lat ?? 22)) / 25) * 100}%`,
+               transform: "translate(-50%, -50%)",
+  }}
+>
                 <div className="flex flex-col items-center animate-bounce">
                   <div className="px-2.5 py-1 rounded-md bg-amber-500 text-stone-950 font-bold text-xs shadow-lg flex items-center gap-1">
                     <MapPin className="w-3 h-3 fill-stone-950" />
