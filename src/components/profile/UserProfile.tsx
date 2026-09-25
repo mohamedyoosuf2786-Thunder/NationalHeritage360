@@ -27,8 +27,7 @@ export const UserProfile: React.FC = () => {
     playChime,
     playSuccessChime
   } = useHeritage();
-
-  const [studentName, setStudentName] = useState('Arjun Sundaram');
+  const [studentName, setStudentName] = useState('Yoosuf Khan');
   const [showCertificateModal, setShowCertificateModal] = useState(false);
 
   const handlePrintCertificate = () => {
